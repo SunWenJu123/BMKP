@@ -1,0 +1,2206 @@
+nohup: ignoring input
+
+=================================================================
+========================== seq-cifar10 : 1 ==========================
+=================================================================
+
+Layer 1 - Parameter shape: torch.Size([20, 27])
+Layer 2 - Parameter shape: torch.Size([20, 180])
+Layer 3 - Parameter shape: torch.Size([20, 180])
+Layer 4 - Parameter shape: torch.Size([20, 180])
+Layer 5 - Parameter shape: torch.Size([20, 180])
+Layer 6 - Parameter shape: torch.Size([40, 180])
+Layer 7 - Parameter shape: torch.Size([40, 360])
+Layer 8 - Parameter shape: torch.Size([40, 20])
+Layer 9 - Parameter shape: torch.Size([40, 360])
+Layer 10 - Parameter shape: torch.Size([40, 360])
+Layer 11 - Parameter shape: torch.Size([80, 360])
+Layer 12 - Parameter shape: torch.Size([80, 720])
+Layer 13 - Parameter shape: torch.Size([80, 40])
+Layer 14 - Parameter shape: torch.Size([80, 720])
+Layer 15 - Parameter shape: torch.Size([80, 720])
+Layer 16 - Parameter shape: torch.Size([160, 720])
+Layer 17 - Parameter shape: torch.Size([160, 1440])
+Layer 18 - Parameter shape: torch.Size([160, 80])
+Layer 19 - Parameter shape: torch.Size([160, 1440])
+Layer 20 - Parameter shape: torch.Size([160, 1440])
+total size of resnet: 1090140
+Files already downloaded and verified
+Files already downloaded and verified
+classes [0, 1]
+epoch:0, loss:0.85136, loss_ce:0.85136, loss_mu:0.00000
+epoch:10, loss:0.01183, loss_ce:0.01183, loss_mu:0.00000
+epoch:20, loss:0.00243, loss_ce:0.00243, loss_mu:0.00000
+epoch:30, loss:0.06130, loss_ce:0.06130, loss_mu:0.00000
+epoch:40, loss:0.00111, loss_ce:0.00111, loss_mu:0.00000
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 4/20 torch.Size([20, 4])
+Layer 2 : 11/20 torch.Size([20, 11])
+Layer 3 : 12/20 torch.Size([20, 12])
+Layer 4 : 11/20 torch.Size([20, 11])
+Layer 5 : 10/20 torch.Size([20, 10])
+Layer 6 : 18/40 torch.Size([40, 18])
+Layer 7 : 24/40 torch.Size([40, 24])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 24/40 torch.Size([40, 24])
+Layer 10 : 21/40 torch.Size([40, 21])
+Layer 11 : 39/80 torch.Size([80, 39])
+Layer 12 : 51/80 torch.Size([80, 51])
+Layer 13 : 21/80 torch.Size([80, 21])
+Layer 14 : 53/80 torch.Size([80, 53])
+Layer 15 : 50/80 torch.Size([80, 50])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 43/160 torch.Size([160, 43])
+Layer 19 : 93/160 torch.Size([160, 93])
+Layer 20 : 85/160 torch.Size([160, 85])
+total basis size: 87800
+----------------------------------------
+classes [0, 1]
+epoch:0, loss:0.00263, loss_ce:0.00263, loss_mu:0.00000
+epoch:10, loss:0.00129, loss_ce:0.00129, loss_mu:0.00000
+epoch:20, loss:0.00011, loss_ce:0.00011, loss_mu:0.00000
+epoch:30, loss:0.00113, loss_ce:0.00113, loss_mu:0.00000
+epoch:40, loss:0.00003, loss_ce:0.00003, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([4, 27])
+Layer 2 - Weight shape: torch.Size([11, 180])
+Layer 3 - Weight shape: torch.Size([12, 180])
+Layer 4 - Weight shape: torch.Size([11, 180])
+Layer 5 - Weight shape: torch.Size([10, 180])
+Layer 6 - Weight shape: torch.Size([18, 180])
+Layer 7 - Weight shape: torch.Size([24, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([24, 360])
+Layer 10 - Weight shape: torch.Size([21, 360])
+Layer 11 - Weight shape: torch.Size([39, 360])
+Layer 12 - Weight shape: torch.Size([51, 720])
+Layer 13 - Weight shape: torch.Size([21, 40])
+Layer 14 - Weight shape: torch.Size([53, 720])
+Layer 15 - Weight shape: torch.Size([50, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([43, 80])
+Layer 19 - Weight shape: torch.Size([93, 1440])
+Layer 20 - Weight shape: torch.Size([85, 1440])
+total size of weight: 632108
+train_time: -333.84452176094055 decompose_time: -38.139671087265015 compose_time: -0.0006330013275146484 retrain_time: -346.1635756492615
+task 0 accuracy 97.8
+[0.0, 97.8]
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 97.8 %
+train_time 718.4730415344238 test_time 0.8362321853637695
+Files already downloaded and verified
+Files already downloaded and verified
+classes [2, 3]
+epoch:0, loss:28.17290, loss_ce:0.36191, loss_mu:2.78110
+epoch:10, loss:16.83608, loss_ce:0.51698, loss_mu:1.63191
+epoch:20, loss:15.86249, loss_ce:0.73014, loss_mu:1.51324
+epoch:30, loss:15.04346, loss_ce:0.45013, loss_mu:1.45933
+epoch:40, loss:14.55442, loss_ce:0.28447, loss_mu:1.42700
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 12/20 torch.Size([20, 12])
+Layer 5 : 11/20 torch.Size([20, 11])
+Layer 6 : 19/40 torch.Size([40, 19])
+Layer 7 : 25/40 torch.Size([40, 25])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 25/40 torch.Size([40, 25])
+Layer 10 : 22/40 torch.Size([40, 22])
+Layer 11 : 41/80 torch.Size([80, 41])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 22/80 torch.Size([80, 22])
+Layer 14 : 54/80 torch.Size([80, 54])
+Layer 15 : 51/80 torch.Size([80, 51])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 103/160 torch.Size([160, 103])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 88/160 torch.Size([160, 88])
+total basis size: 89880
+----------------------------------------
+classes [2, 3]
+epoch:0, loss:0.19506, loss_ce:0.19506, loss_mu:0.00000
+epoch:10, loss:0.18014, loss_ce:0.18014, loss_mu:0.00000
+epoch:20, loss:0.10340, loss_ce:0.10340, loss_mu:0.00000
+epoch:30, loss:0.39649, loss_ce:0.39649, loss_mu:0.00000
+epoch:40, loss:0.06913, loss_ce:0.06913, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([12, 180])
+Layer 5 - Weight shape: torch.Size([11, 180])
+Layer 6 - Weight shape: torch.Size([19, 180])
+Layer 7 - Weight shape: torch.Size([25, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([25, 360])
+Layer 10 - Weight shape: torch.Size([22, 360])
+Layer 11 - Weight shape: torch.Size([41, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([22, 40])
+Layer 14 - Weight shape: torch.Size([54, 720])
+Layer 15 - Weight shape: torch.Size([51, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([103, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([88, 1440])
+total size of weight: 1277910
+train_time: -374.1179418563843 decompose_time: -78.40928912162781 compose_time: -0.0005433559417724609 retrain_time: -363.5405550003052
+task 0 accuracy 97.8
+task 1 accuracy 86.7
+[0.0, 97.8, 97.8]
+[0.0, 86.7]
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.25 %
+train_time 816.3939352035522 test_time 1.6353096961975098
+Files already downloaded and verified
+Files already downloaded and verified
+classes [4, 5]
+epoch:0, loss:107.41218, loss_ce:0.23861, loss_mu:10.71736
+epoch:10, loss:107.09262, loss_ce:0.32493, loss_mu:10.67677
+epoch:20, loss:107.01554, loss_ce:0.25049, loss_mu:10.67650
+epoch:30, loss:106.82415, loss_ce:0.05870, loss_mu:10.67655
+epoch:40, loss:106.80554, loss_ce:0.03955, loss_mu:10.67660
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 12/20 torch.Size([20, 12])
+Layer 5 : 11/20 torch.Size([20, 11])
+Layer 6 : 19/40 torch.Size([40, 19])
+Layer 7 : 25/40 torch.Size([40, 25])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 25/40 torch.Size([40, 25])
+Layer 10 : 22/40 torch.Size([40, 22])
+Layer 11 : 41/80 torch.Size([80, 41])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 22/80 torch.Size([80, 22])
+Layer 14 : 54/80 torch.Size([80, 54])
+Layer 15 : 51/80 torch.Size([80, 51])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 103/160 torch.Size([160, 103])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 88/160 torch.Size([160, 88])
+total basis size: 89880
+----------------------------------------
+classes [4, 5]
+epoch:0, loss:0.10809, loss_ce:0.10809, loss_mu:0.00000
+epoch:10, loss:0.38792, loss_ce:0.38792, loss_mu:0.00000
+epoch:20, loss:0.07521, loss_ce:0.07521, loss_mu:0.00000
+epoch:30, loss:0.25771, loss_ce:0.25771, loss_mu:0.00000
+epoch:40, loss:0.16927, loss_ce:0.16927, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([12, 180])
+Layer 5 - Weight shape: torch.Size([11, 180])
+Layer 6 - Weight shape: torch.Size([19, 180])
+Layer 7 - Weight shape: torch.Size([25, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([25, 360])
+Layer 10 - Weight shape: torch.Size([22, 360])
+Layer 11 - Weight shape: torch.Size([41, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([22, 40])
+Layer 14 - Weight shape: torch.Size([54, 720])
+Layer 15 - Weight shape: torch.Size([51, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([103, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([88, 1440])
+total size of weight: 1923712
+train_time: -380.65310525894165 decompose_time: -79.2748532295227 compose_time: -0.0005524158477783203 retrain_time: -339.16534423828125
+task 0 accuracy 97.8
+task 1 accuracy 86.7
+task 2 accuracy 92.85
+[0.0, 97.8, 97.8, 97.8]
+[0.0, 86.7, 86.7]
+[0.0, 92.85]
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.45 %
+train_time 799.4036383628845 test_time 2.4749755859375
+Files already downloaded and verified
+Files already downloaded and verified
+classes [6, 7]
+epoch:0, loss:106.88232, loss_ce:0.10753, loss_mu:10.67748
+epoch:10, loss:106.78743, loss_ce:0.02558, loss_mu:10.67618
+epoch:20, loss:106.77825, loss_ce:0.01831, loss_mu:10.67599
+epoch:30, loss:106.76712, loss_ce:0.00625, loss_mu:10.67609
+epoch:40, loss:106.76133, loss_ce:0.00126, loss_mu:10.67601
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 12/20 torch.Size([20, 12])
+Layer 5 : 11/20 torch.Size([20, 11])
+Layer 6 : 19/40 torch.Size([40, 19])
+Layer 7 : 25/40 torch.Size([40, 25])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 25/40 torch.Size([40, 25])
+Layer 10 : 22/40 torch.Size([40, 22])
+Layer 11 : 41/80 torch.Size([80, 41])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 22/80 torch.Size([80, 22])
+Layer 14 : 54/80 torch.Size([80, 54])
+Layer 15 : 51/80 torch.Size([80, 51])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 103/160 torch.Size([160, 103])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 88/160 torch.Size([160, 88])
+total basis size: 89880
+----------------------------------------
+classes [6, 7]
+epoch:0, loss:0.00215, loss_ce:0.00215, loss_mu:0.00000
+epoch:10, loss:0.00348, loss_ce:0.00348, loss_mu:0.00000
+epoch:20, loss:0.12625, loss_ce:0.12625, loss_mu:0.00000
+epoch:30, loss:0.05105, loss_ce:0.05105, loss_mu:0.00000
+epoch:40, loss:0.03683, loss_ce:0.03683, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([12, 180])
+Layer 5 - Weight shape: torch.Size([11, 180])
+Layer 6 - Weight shape: torch.Size([19, 180])
+Layer 7 - Weight shape: torch.Size([25, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([25, 360])
+Layer 10 - Weight shape: torch.Size([22, 360])
+Layer 11 - Weight shape: torch.Size([41, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([22, 40])
+Layer 14 - Weight shape: torch.Size([54, 720])
+Layer 15 - Weight shape: torch.Size([51, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([103, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([88, 1440])
+total size of weight: 2569514
+train_time: -373.87255811691284 decompose_time: -75.72051453590393 compose_time: -0.0005235671997070312 retrain_time: -340.4556429386139
+task 0 accuracy 97.8
+task 1 accuracy 86.7
+task 2 accuracy 92.85
+task 3 accuracy 97.45
+[0.0, 97.8, 97.8, 97.8, 97.8]
+[0.0, 86.7, 86.7, 86.7]
+[0.0, 92.85, 92.85]
+[0.0, 97.45]
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.7 %
+train_time 790.3631756305695 test_time 3.3858084678649902
+Files already downloaded and verified
+Files already downloaded and verified
+classes [8, 9]
+epoch:0, loss:106.97378, loss_ce:0.20183, loss_mu:10.67719
+epoch:10, loss:106.80219, loss_ce:0.03862, loss_mu:10.67636
+epoch:20, loss:106.97588, loss_ce:0.21470, loss_mu:10.67612
+epoch:30, loss:106.78826, loss_ce:0.02776, loss_mu:10.67605
+epoch:40, loss:106.80018, loss_ce:0.04031, loss_mu:10.67599
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 12/20 torch.Size([20, 12])
+Layer 5 : 11/20 torch.Size([20, 11])
+Layer 6 : 19/40 torch.Size([40, 19])
+Layer 7 : 25/40 torch.Size([40, 25])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 25/40 torch.Size([40, 25])
+Layer 10 : 22/40 torch.Size([40, 22])
+Layer 11 : 41/80 torch.Size([80, 41])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 22/80 torch.Size([80, 22])
+Layer 14 : 54/80 torch.Size([80, 54])
+Layer 15 : 51/80 torch.Size([80, 51])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 103/160 torch.Size([160, 103])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 88/160 torch.Size([160, 88])
+total basis size: 89880
+----------------------------------------
+classes [8, 9]
+epoch:0, loss:0.02623, loss_ce:0.02623, loss_mu:0.00000
+epoch:10, loss:0.03190, loss_ce:0.03190, loss_mu:0.00000
+epoch:20, loss:0.00837, loss_ce:0.00837, loss_mu:0.00000
+epoch:30, loss:0.00580, loss_ce:0.00580, loss_mu:0.00000
+epoch:40, loss:0.00550, loss_ce:0.00550, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([12, 180])
+Layer 5 - Weight shape: torch.Size([11, 180])
+Layer 6 - Weight shape: torch.Size([19, 180])
+Layer 7 - Weight shape: torch.Size([25, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([25, 360])
+Layer 10 - Weight shape: torch.Size([22, 360])
+Layer 11 - Weight shape: torch.Size([41, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([22, 40])
+Layer 14 - Weight shape: torch.Size([54, 720])
+Layer 15 - Weight shape: torch.Size([51, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([103, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([88, 1440])
+total size of weight: 3215316
+train_time: -369.47912311553955 decompose_time: -91.19934296607971 compose_time: -0.0005354881286621094 retrain_time: -364.3420567512512
+task 0 accuracy 97.8
+task 1 accuracy 86.7
+task 2 accuracy 92.85
+task 3 accuracy 97.45
+task 4 accuracy 96.65
+[0.0, 97.8, 97.8, 97.8, 97.8, 97.8]
+[0.0, 86.7, 86.7, 86.7, 86.7]
+[0.0, 92.85, 92.85, 92.85]
+[0.0, 97.45, 97.45]
+[0.0, 96.65]
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.29 %
+train_time 825.3406715393066 test_time 4.17761492729187
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 97.8 %
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.25 %
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.45 %
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.7 %
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.29 %
+
+=================================================================
+========================== seq-cifar10 : 2 ==========================
+=================================================================
+
+Layer 1 - Parameter shape: torch.Size([20, 27])
+Layer 2 - Parameter shape: torch.Size([20, 180])
+Layer 3 - Parameter shape: torch.Size([20, 180])
+Layer 4 - Parameter shape: torch.Size([20, 180])
+Layer 5 - Parameter shape: torch.Size([20, 180])
+Layer 6 - Parameter shape: torch.Size([40, 180])
+Layer 7 - Parameter shape: torch.Size([40, 360])
+Layer 8 - Parameter shape: torch.Size([40, 20])
+Layer 9 - Parameter shape: torch.Size([40, 360])
+Layer 10 - Parameter shape: torch.Size([40, 360])
+Layer 11 - Parameter shape: torch.Size([80, 360])
+Layer 12 - Parameter shape: torch.Size([80, 720])
+Layer 13 - Parameter shape: torch.Size([80, 40])
+Layer 14 - Parameter shape: torch.Size([80, 720])
+Layer 15 - Parameter shape: torch.Size([80, 720])
+Layer 16 - Parameter shape: torch.Size([160, 720])
+Layer 17 - Parameter shape: torch.Size([160, 1440])
+Layer 18 - Parameter shape: torch.Size([160, 80])
+Layer 19 - Parameter shape: torch.Size([160, 1440])
+Layer 20 - Parameter shape: torch.Size([160, 1440])
+total size of resnet: 1090140
+Files already downloaded and verified
+Files already downloaded and verified
+classes [0, 1]
+epoch:0, loss:0.33863, loss_ce:0.33863, loss_mu:0.00000
+epoch:10, loss:0.01066, loss_ce:0.01066, loss_mu:0.00000
+epoch:20, loss:0.07963, loss_ce:0.07963, loss_mu:0.00000
+epoch:30, loss:0.01627, loss_ce:0.01627, loss_mu:0.00000
+epoch:40, loss:0.06744, loss_ce:0.06744, loss_mu:0.00000
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 4/20 torch.Size([20, 4])
+Layer 2 : 11/20 torch.Size([20, 11])
+Layer 3 : 12/20 torch.Size([20, 12])
+Layer 4 : 12/20 torch.Size([20, 12])
+Layer 5 : 11/20 torch.Size([20, 11])
+Layer 6 : 19/40 torch.Size([40, 19])
+Layer 7 : 26/40 torch.Size([40, 26])
+Layer 8 : 11/40 torch.Size([40, 11])
+Layer 9 : 23/40 torch.Size([40, 23])
+Layer 10 : 20/40 torch.Size([40, 20])
+Layer 11 : 38/80 torch.Size([80, 38])
+Layer 12 : 48/80 torch.Size([80, 48])
+Layer 13 : 19/80 torch.Size([80, 19])
+Layer 14 : 46/80 torch.Size([80, 46])
+Layer 15 : 45/80 torch.Size([80, 45])
+Layer 16 : 84/160 torch.Size([160, 84])
+Layer 17 : 95/160 torch.Size([160, 95])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 93/160 torch.Size([160, 93])
+Layer 20 : 91/160 torch.Size([160, 91])
+total basis size: 85280
+----------------------------------------
+classes [0, 1]
+epoch:0, loss:0.22040, loss_ce:0.22040, loss_mu:0.00000
+epoch:10, loss:0.14763, loss_ce:0.14763, loss_mu:0.00000
+epoch:20, loss:0.00301, loss_ce:0.00301, loss_mu:0.00000
+epoch:30, loss:0.00179, loss_ce:0.00179, loss_mu:0.00000
+epoch:40, loss:0.15549, loss_ce:0.15549, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([4, 27])
+Layer 2 - Weight shape: torch.Size([11, 180])
+Layer 3 - Weight shape: torch.Size([12, 180])
+Layer 4 - Weight shape: torch.Size([12, 180])
+Layer 5 - Weight shape: torch.Size([11, 180])
+Layer 6 - Weight shape: torch.Size([19, 180])
+Layer 7 - Weight shape: torch.Size([26, 360])
+Layer 8 - Weight shape: torch.Size([11, 20])
+Layer 9 - Weight shape: torch.Size([23, 360])
+Layer 10 - Weight shape: torch.Size([20, 360])
+Layer 11 - Weight shape: torch.Size([38, 360])
+Layer 12 - Weight shape: torch.Size([48, 720])
+Layer 13 - Weight shape: torch.Size([19, 40])
+Layer 14 - Weight shape: torch.Size([46, 720])
+Layer 15 - Weight shape: torch.Size([45, 720])
+Layer 16 - Weight shape: torch.Size([84, 720])
+Layer 17 - Weight shape: torch.Size([95, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([93, 1440])
+Layer 20 - Weight shape: torch.Size([91, 1440])
+total size of weight: 616908
+train_time: -346.4258005619049 decompose_time: -38.34011387825012 compose_time: -0.0006382465362548828 retrain_time: -351.55119228363037
+task 0 accuracy 98.45
+[0.0, 98.45]
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.45 %
+train_time 736.6365396976471 test_time 0.839970588684082
+Files already downloaded and verified
+Files already downloaded and verified
+classes [2, 3]
+epoch:0, loss:32.33466, loss_ce:0.46380, loss_mu:3.18709
+epoch:10, loss:20.34316, loss_ce:0.21939, loss_mu:2.01238
+epoch:20, loss:19.17706, loss_ce:0.24767, loss_mu:1.89294
+epoch:30, loss:18.47449, loss_ce:0.08588, loss_mu:1.83886
+epoch:40, loss:18.11514, loss_ce:0.05068, loss_mu:1.80645
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 20/40 torch.Size([40, 20])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 24/40 torch.Size([40, 24])
+Layer 10 : 21/40 torch.Size([40, 21])
+Layer 11 : 40/80 torch.Size([80, 40])
+Layer 12 : 49/80 torch.Size([80, 49])
+Layer 13 : 20/80 torch.Size([80, 20])
+Layer 14 : 47/80 torch.Size([80, 47])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 86/160 torch.Size([160, 86])
+Layer 17 : 96/160 torch.Size([160, 96])
+Layer 18 : 42/160 torch.Size([160, 42])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 94/160 torch.Size([160, 94])
+total basis size: 87440
+----------------------------------------
+classes [2, 3]
+epoch:0, loss:0.55883, loss_ce:0.55883, loss_mu:0.00000
+epoch:10, loss:0.23908, loss_ce:0.23908, loss_mu:0.00000
+epoch:20, loss:0.84901, loss_ce:0.84901, loss_mu:0.00000
+epoch:30, loss:0.25631, loss_ce:0.25631, loss_mu:0.00000
+epoch:40, loss:0.29544, loss_ce:0.29544, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([20, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([24, 360])
+Layer 10 - Weight shape: torch.Size([21, 360])
+Layer 11 - Weight shape: torch.Size([40, 360])
+Layer 12 - Weight shape: torch.Size([49, 720])
+Layer 13 - Weight shape: torch.Size([20, 40])
+Layer 14 - Weight shape: torch.Size([47, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([86, 720])
+Layer 17 - Weight shape: torch.Size([96, 1440])
+Layer 18 - Weight shape: torch.Size([42, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([94, 1440])
+total size of weight: 1248230
+train_time: -382.560604095459 decompose_time: -73.45092749595642 compose_time: -0.0005328655242919922 retrain_time: -339.662987947464
+task 0 accuracy 98.45
+task 1 accuracy 87.0
+[0.0, 98.45, 98.45]
+[0.0, 87.0]
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.72 %
+train_time 795.9939501285553 test_time 1.6363756656646729
+Files already downloaded and verified
+Files already downloaded and verified
+classes [4, 5]
+epoch:0, loss:105.93923, loss_ce:0.29526, loss_mu:10.56440
+epoch:10, loss:105.37641, loss_ce:0.17218, loss_mu:10.52042
+epoch:20, loss:105.38715, loss_ce:0.18388, loss_mu:10.52033
+epoch:30, loss:105.33036, loss_ce:0.12785, loss_mu:10.52025
+epoch:40, loss:105.51022, loss_ce:0.30712, loss_mu:10.52031
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 20/40 torch.Size([40, 20])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 24/40 torch.Size([40, 24])
+Layer 10 : 21/40 torch.Size([40, 21])
+Layer 11 : 40/80 torch.Size([80, 40])
+Layer 12 : 49/80 torch.Size([80, 49])
+Layer 13 : 20/80 torch.Size([80, 20])
+Layer 14 : 47/80 torch.Size([80, 47])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 86/160 torch.Size([160, 86])
+Layer 17 : 96/160 torch.Size([160, 96])
+Layer 18 : 42/160 torch.Size([160, 42])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 94/160 torch.Size([160, 94])
+total basis size: 87440
+----------------------------------------
+classes [4, 5]
+epoch:0, loss:0.11492, loss_ce:0.11492, loss_mu:0.00000
+epoch:10, loss:0.09159, loss_ce:0.09159, loss_mu:0.00000
+epoch:20, loss:0.37348, loss_ce:0.37348, loss_mu:0.00000
+epoch:30, loss:0.47325, loss_ce:0.47325, loss_mu:0.00000
+epoch:40, loss:0.02841, loss_ce:0.02841, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([20, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([24, 360])
+Layer 10 - Weight shape: torch.Size([21, 360])
+Layer 11 - Weight shape: torch.Size([40, 360])
+Layer 12 - Weight shape: torch.Size([49, 720])
+Layer 13 - Weight shape: torch.Size([20, 40])
+Layer 14 - Weight shape: torch.Size([47, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([86, 720])
+Layer 17 - Weight shape: torch.Size([96, 1440])
+Layer 18 - Weight shape: torch.Size([42, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([94, 1440])
+total size of weight: 1879552
+train_time: -386.83478236198425 decompose_time: -74.21688842773438 compose_time: -0.0005285739898681641 retrain_time: -350.30474305152893
+task 0 accuracy 98.45
+task 1 accuracy 87.0
+task 2 accuracy 94.0
+[0.0, 98.45, 98.45, 98.45]
+[0.0, 87.0, 87.0]
+[0.0, 94.0]
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.15 %
+train_time 811.668918132782 test_time 3.0259547233581543
+Files already downloaded and verified
+Files already downloaded and verified
+classes [6, 7]
+epoch:0, loss:105.45731, loss_ce:0.24511, loss_mu:10.52122
+epoch:10, loss:105.29868, loss_ce:0.09999, loss_mu:10.51987
+epoch:20, loss:105.22472, loss_ce:0.02728, loss_mu:10.51974
+epoch:30, loss:105.22608, loss_ce:0.02908, loss_mu:10.51970
+epoch:40, loss:105.46590, loss_ce:0.26914, loss_mu:10.51968
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 20/40 torch.Size([40, 20])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 24/40 torch.Size([40, 24])
+Layer 10 : 21/40 torch.Size([40, 21])
+Layer 11 : 40/80 torch.Size([80, 40])
+Layer 12 : 49/80 torch.Size([80, 49])
+Layer 13 : 20/80 torch.Size([80, 20])
+Layer 14 : 47/80 torch.Size([80, 47])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 86/160 torch.Size([160, 86])
+Layer 17 : 96/160 torch.Size([160, 96])
+Layer 18 : 42/160 torch.Size([160, 42])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 94/160 torch.Size([160, 94])
+total basis size: 87440
+----------------------------------------
+classes [6, 7]
+epoch:0, loss:0.00883, loss_ce:0.00883, loss_mu:0.00000
+epoch:10, loss:0.19483, loss_ce:0.19483, loss_mu:0.00000
+epoch:20, loss:0.00701, loss_ce:0.00701, loss_mu:0.00000
+epoch:30, loss:0.03730, loss_ce:0.03730, loss_mu:0.00000
+epoch:40, loss:0.08079, loss_ce:0.08079, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([20, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([24, 360])
+Layer 10 - Weight shape: torch.Size([21, 360])
+Layer 11 - Weight shape: torch.Size([40, 360])
+Layer 12 - Weight shape: torch.Size([49, 720])
+Layer 13 - Weight shape: torch.Size([20, 40])
+Layer 14 - Weight shape: torch.Size([47, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([86, 720])
+Layer 17 - Weight shape: torch.Size([96, 1440])
+Layer 18 - Weight shape: torch.Size([42, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([94, 1440])
+total size of weight: 2510874
+train_time: -402.80826210975647 decompose_time: -77.0088849067688 compose_time: -0.0005252361297607422 retrain_time: -340.02696466445923
+task 0 accuracy 98.45
+task 1 accuracy 87.0
+task 2 accuracy 94.0
+task 3 accuracy 97.7
+[0.0, 98.45, 98.45, 98.45, 98.45]
+[0.0, 87.0, 87.0, 87.0]
+[0.0, 94.0, 94.0]
+[0.0, 97.7]
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.29 %
+train_time 820.2322034835815 test_time 3.3737058639526367
+Files already downloaded and verified
+Files already downloaded and verified
+classes [8, 9]
+epoch:0, loss:105.40438, loss_ce:0.19037, loss_mu:10.52140
+epoch:10, loss:105.25783, loss_ce:0.05874, loss_mu:10.51991
+epoch:20, loss:105.26946, loss_ce:0.07163, loss_mu:10.51978
+epoch:30, loss:105.31232, loss_ce:0.11411, loss_mu:10.51982
+epoch:40, loss:105.22067, loss_ce:0.02285, loss_mu:10.51978
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 20/40 torch.Size([40, 20])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 24/40 torch.Size([40, 24])
+Layer 10 : 21/40 torch.Size([40, 21])
+Layer 11 : 40/80 torch.Size([80, 40])
+Layer 12 : 49/80 torch.Size([80, 49])
+Layer 13 : 20/80 torch.Size([80, 20])
+Layer 14 : 47/80 torch.Size([80, 47])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 86/160 torch.Size([160, 86])
+Layer 17 : 96/160 torch.Size([160, 96])
+Layer 18 : 42/160 torch.Size([160, 42])
+Layer 19 : 94/160 torch.Size([160, 94])
+Layer 20 : 94/160 torch.Size([160, 94])
+total basis size: 87440
+----------------------------------------
+classes [8, 9]
+epoch:0, loss:0.00899, loss_ce:0.00899, loss_mu:0.00000
+epoch:10, loss:0.00912, loss_ce:0.00912, loss_mu:0.00000
+epoch:20, loss:0.00919, loss_ce:0.00919, loss_mu:0.00000
+epoch:30, loss:0.06485, loss_ce:0.06485, loss_mu:0.00000
+epoch:40, loss:0.01069, loss_ce:0.01069, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([20, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([24, 360])
+Layer 10 - Weight shape: torch.Size([21, 360])
+Layer 11 - Weight shape: torch.Size([40, 360])
+Layer 12 - Weight shape: torch.Size([49, 720])
+Layer 13 - Weight shape: torch.Size([20, 40])
+Layer 14 - Weight shape: torch.Size([47, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([86, 720])
+Layer 17 - Weight shape: torch.Size([96, 1440])
+Layer 18 - Weight shape: torch.Size([42, 80])
+Layer 19 - Weight shape: torch.Size([94, 1440])
+Layer 20 - Weight shape: torch.Size([94, 1440])
+total size of weight: 3142196
+train_time: -369.3304793834686 decompose_time: -81.40282154083252 compose_time: -0.0005335807800292969 retrain_time: -343.66747856140137
+task 0 accuracy 98.45
+task 1 accuracy 87.0
+task 2 accuracy 94.0
+task 3 accuracy 97.7
+task 4 accuracy 96.95
+[0.0, 98.45, 98.45, 98.45, 98.45, 98.45]
+[0.0, 87.0, 87.0, 87.0, 87.0]
+[0.0, 94.0, 94.0, 94.0]
+[0.0, 97.7, 97.7]
+[0.0, 96.95]
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.82 %
+train_time 794.7134251594543 test_time 4.113217353820801
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.45 %
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.72 %
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.15 %
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.29 %
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.82 %
+
+=================================================================
+========================== seq-cifar10 : 3 ==========================
+=================================================================
+
+Layer 1 - Parameter shape: torch.Size([20, 27])
+Layer 2 - Parameter shape: torch.Size([20, 180])
+Layer 3 - Parameter shape: torch.Size([20, 180])
+Layer 4 - Parameter shape: torch.Size([20, 180])
+Layer 5 - Parameter shape: torch.Size([20, 180])
+Layer 6 - Parameter shape: torch.Size([40, 180])
+Layer 7 - Parameter shape: torch.Size([40, 360])
+Layer 8 - Parameter shape: torch.Size([40, 20])
+Layer 9 - Parameter shape: torch.Size([40, 360])
+Layer 10 - Parameter shape: torch.Size([40, 360])
+Layer 11 - Parameter shape: torch.Size([80, 360])
+Layer 12 - Parameter shape: torch.Size([80, 720])
+Layer 13 - Parameter shape: torch.Size([80, 40])
+Layer 14 - Parameter shape: torch.Size([80, 720])
+Layer 15 - Parameter shape: torch.Size([80, 720])
+Layer 16 - Parameter shape: torch.Size([160, 720])
+Layer 17 - Parameter shape: torch.Size([160, 1440])
+Layer 18 - Parameter shape: torch.Size([160, 80])
+Layer 19 - Parameter shape: torch.Size([160, 1440])
+Layer 20 - Parameter shape: torch.Size([160, 1440])
+total size of resnet: 1090140
+Files already downloaded and verified
+Files already downloaded and verified
+classes [0, 1]
+epoch:0, loss:0.41908, loss_ce:0.41908, loss_mu:0.00000
+epoch:10, loss:0.25178, loss_ce:0.25178, loss_mu:0.00000
+epoch:20, loss:0.03402, loss_ce:0.03402, loss_mu:0.00000
+epoch:30, loss:0.15057, loss_ce:0.15057, loss_mu:0.00000
+epoch:40, loss:0.33066, loss_ce:0.33066, loss_mu:0.00000
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 4/20 torch.Size([20, 4])
+Layer 2 : 11/20 torch.Size([20, 11])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 21/40 torch.Size([40, 21])
+Layer 7 : 26/40 torch.Size([40, 26])
+Layer 8 : 11/40 torch.Size([40, 11])
+Layer 9 : 26/40 torch.Size([40, 26])
+Layer 10 : 23/40 torch.Size([40, 23])
+Layer 11 : 44/80 torch.Size([80, 44])
+Layer 12 : 50/80 torch.Size([80, 50])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 50/80 torch.Size([80, 50])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 86/160 torch.Size([160, 86])
+Layer 17 : 99/160 torch.Size([160, 99])
+Layer 18 : 40/160 torch.Size([160, 40])
+Layer 19 : 95/160 torch.Size([160, 95])
+Layer 20 : 88/160 torch.Size([160, 88])
+total basis size: 87740
+----------------------------------------
+classes [0, 1]
+epoch:0, loss:0.14560, loss_ce:0.14560, loss_mu:0.00000
+epoch:10, loss:0.02558, loss_ce:0.02558, loss_mu:0.00000
+epoch:20, loss:0.04127, loss_ce:0.04127, loss_mu:0.00000
+epoch:30, loss:0.00038, loss_ce:0.00038, loss_mu:0.00000
+epoch:40, loss:0.00100, loss_ce:0.00100, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([4, 27])
+Layer 2 - Weight shape: torch.Size([11, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([21, 180])
+Layer 7 - Weight shape: torch.Size([26, 360])
+Layer 8 - Weight shape: torch.Size([11, 20])
+Layer 9 - Weight shape: torch.Size([26, 360])
+Layer 10 - Weight shape: torch.Size([23, 360])
+Layer 11 - Weight shape: torch.Size([44, 360])
+Layer 12 - Weight shape: torch.Size([50, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([50, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([86, 720])
+Layer 17 - Weight shape: torch.Size([99, 1440])
+Layer 18 - Weight shape: torch.Size([40, 80])
+Layer 19 - Weight shape: torch.Size([95, 1440])
+Layer 20 - Weight shape: torch.Size([88, 1440])
+total size of weight: 633728
+train_time: -335.6224775314331 decompose_time: -37.918270111083984 compose_time: -0.0006392002105712891 retrain_time: -351.2167673110962
+task 0 accuracy 98.15
+[0.0, 98.15]
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.15 %
+train_time 725.0846002101898 test_time 0.8168227672576904
+Files already downloaded and verified
+Files already downloaded and verified
+classes [2, 3]
+epoch:0, loss:31.00691, loss_ce:0.45320, loss_mu:3.05537
+epoch:10, loss:19.20871, loss_ce:0.28048, loss_mu:1.89282
+epoch:20, loss:18.02463, loss_ce:0.31142, loss_mu:1.77132
+epoch:30, loss:17.51161, loss_ce:0.34963, loss_mu:1.71620
+epoch:40, loss:17.05222, loss_ce:0.22141, loss_mu:1.68308
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 23/40 torch.Size([40, 23])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 24/40 torch.Size([40, 24])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 51/80 torch.Size([80, 51])
+Layer 13 : 24/80 torch.Size([80, 24])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 48/80 torch.Size([80, 48])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 100/160 torch.Size([160, 100])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 96/160 torch.Size([160, 96])
+Layer 20 : 92/160 torch.Size([160, 92])
+total basis size: 89940
+----------------------------------------
+classes [2, 3]
+epoch:0, loss:0.08587, loss_ce:0.08587, loss_mu:0.00000
+epoch:10, loss:0.69456, loss_ce:0.69456, loss_mu:0.00000
+epoch:20, loss:0.39877, loss_ce:0.39877, loss_mu:0.00000
+epoch:30, loss:0.20960, loss_ce:0.20960, loss_mu:0.00000
+epoch:40, loss:0.12508, loss_ce:0.12508, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([23, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([24, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([51, 720])
+Layer 13 - Weight shape: torch.Size([24, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([48, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([100, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([96, 1440])
+Layer 20 - Weight shape: torch.Size([92, 1440])
+total size of weight: 1282410
+train_time: -416.28897500038147 decompose_time: -77.17739820480347 compose_time: -0.0005288124084472656 retrain_time: -347.2443618774414
+task 0 accuracy 98.15
+task 1 accuracy 87.55
+[0.0, 98.15, 98.15]
+[0.0, 87.55]
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.85 %
+train_time 841.0241239070892 test_time 1.635115385055542
+Files already downloaded and verified
+Files already downloaded and verified
+classes [4, 5]
+epoch:0, loss:112.01068, loss_ce:0.29028, loss_mu:11.17204
+epoch:10, loss:111.27527, loss_ce:0.02254, loss_mu:11.12527
+epoch:20, loss:111.41222, loss_ce:0.16039, loss_mu:11.12518
+epoch:30, loss:111.31361, loss_ce:0.06184, loss_mu:11.12518
+epoch:40, loss:111.29088, loss_ce:0.03993, loss_mu:11.12509
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 23/40 torch.Size([40, 23])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 24/40 torch.Size([40, 24])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 51/80 torch.Size([80, 51])
+Layer 13 : 24/80 torch.Size([80, 24])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 48/80 torch.Size([80, 48])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 100/160 torch.Size([160, 100])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 96/160 torch.Size([160, 96])
+Layer 20 : 92/160 torch.Size([160, 92])
+total basis size: 89940
+----------------------------------------
+classes [4, 5]
+epoch:0, loss:0.09507, loss_ce:0.09507, loss_mu:0.00000
+epoch:10, loss:0.01793, loss_ce:0.01793, loss_mu:0.00000
+epoch:20, loss:0.18327, loss_ce:0.18327, loss_mu:0.00000
+epoch:30, loss:0.03730, loss_ce:0.03730, loss_mu:0.00000
+epoch:40, loss:0.22144, loss_ce:0.22144, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([23, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([24, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([51, 720])
+Layer 13 - Weight shape: torch.Size([24, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([48, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([100, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([96, 1440])
+Layer 20 - Weight shape: torch.Size([92, 1440])
+total size of weight: 1931092
+train_time: -374.1516318321228 decompose_time: -75.70488619804382 compose_time: -0.000530242919921875 retrain_time: -353.10758900642395
+task 0 accuracy 98.15
+task 1 accuracy 87.55
+task 2 accuracy 93.7
+[0.0, 98.15, 98.15, 98.15]
+[0.0, 87.55, 87.55]
+[0.0, 93.7]
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.13 %
+train_time 803.2766962051392 test_time 2.6701996326446533
+Files already downloaded and verified
+Files already downloaded and verified
+classes [6, 7]
+epoch:0, loss:111.49019, loss_ce:0.23027, loss_mu:11.12599
+epoch:10, loss:111.38600, loss_ce:0.13860, loss_mu:11.12474
+epoch:20, loss:111.49617, loss_ce:0.24847, loss_mu:11.12477
+epoch:30, loss:111.38592, loss_ce:0.13847, loss_mu:11.12474
+epoch:40, loss:111.26793, loss_ce:0.02167, loss_mu:11.12463
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 23/40 torch.Size([40, 23])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 24/40 torch.Size([40, 24])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 51/80 torch.Size([80, 51])
+Layer 13 : 24/80 torch.Size([80, 24])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 48/80 torch.Size([80, 48])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 100/160 torch.Size([160, 100])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 96/160 torch.Size([160, 96])
+Layer 20 : 92/160 torch.Size([160, 92])
+total basis size: 89940
+----------------------------------------
+classes [6, 7]
+epoch:0, loss:0.23285, loss_ce:0.23285, loss_mu:0.00000
+epoch:10, loss:0.00714, loss_ce:0.00714, loss_mu:0.00000
+epoch:20, loss:0.02835, loss_ce:0.02835, loss_mu:0.00000
+epoch:30, loss:0.00780, loss_ce:0.00780, loss_mu:0.00000
+epoch:40, loss:0.00176, loss_ce:0.00176, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([23, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([24, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([51, 720])
+Layer 13 - Weight shape: torch.Size([24, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([48, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([100, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([96, 1440])
+Layer 20 - Weight shape: torch.Size([92, 1440])
+total size of weight: 2579774
+train_time: -369.88267183303833 decompose_time: -76.27395391464233 compose_time: -0.0005519390106201172 retrain_time: -335.9732837677002
+task 0 accuracy 98.15
+task 1 accuracy 87.55
+task 2 accuracy 93.7
+task 3 accuracy 96.89999999999999
+[0.0, 98.15, 98.15, 98.15, 98.15]
+[0.0, 87.55, 87.55, 87.55]
+[0.0, 93.7, 93.7]
+[0.0, 96.89999999999999]
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.08 %
+train_time 782.4769892692566 test_time 3.3847951889038086
+Files already downloaded and verified
+Files already downloaded and verified
+classes [8, 9]
+epoch:0, loss:111.56183, loss_ce:0.30549, loss_mu:11.12563
+epoch:10, loss:111.28192, loss_ce:0.03399, loss_mu:11.12479
+epoch:20, loss:111.75675, loss_ce:0.50964, loss_mu:11.12471
+epoch:30, loss:111.34368, loss_ce:0.09622, loss_mu:11.12475
+epoch:40, loss:111.26746, loss_ce:0.02025, loss_mu:11.12472
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 23/40 torch.Size([40, 23])
+Layer 7 : 27/40 torch.Size([40, 27])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 24/40 torch.Size([40, 24])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 51/80 torch.Size([80, 51])
+Layer 13 : 24/80 torch.Size([80, 24])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 48/80 torch.Size([80, 48])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 100/160 torch.Size([160, 100])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 96/160 torch.Size([160, 96])
+Layer 20 : 92/160 torch.Size([160, 92])
+total basis size: 89940
+----------------------------------------
+classes [8, 9]
+epoch:0, loss:0.00996, loss_ce:0.00996, loss_mu:0.00000
+epoch:10, loss:0.00287, loss_ce:0.00287, loss_mu:0.00000
+epoch:20, loss:0.03677, loss_ce:0.03677, loss_mu:0.00000
+epoch:30, loss:0.03416, loss_ce:0.03416, loss_mu:0.00000
+epoch:40, loss:0.00705, loss_ce:0.00705, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([23, 180])
+Layer 7 - Weight shape: torch.Size([27, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([24, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([51, 720])
+Layer 13 - Weight shape: torch.Size([24, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([48, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([100, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([96, 1440])
+Layer 20 - Weight shape: torch.Size([92, 1440])
+total size of weight: 3228456
+train_time: -417.0565736293793 decompose_time: -80.84568619728088 compose_time: -0.0006556510925292969 retrain_time: -341.3742971420288
+task 0 accuracy 98.15
+task 1 accuracy 87.55
+task 2 accuracy 93.7
+task 3 accuracy 96.89999999999999
+task 4 accuracy 96.75
+[0.0, 98.15, 98.15, 98.15, 98.15, 98.15]
+[0.0, 87.55, 87.55, 87.55, 87.55]
+[0.0, 93.7, 93.7, 93.7]
+[0.0, 96.89999999999999, 96.89999999999999]
+[0.0, 96.75]
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.61 %
+train_time 839.6104099750519 test_time 4.140967130661011
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.15 %
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.85 %
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.13 %
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.08 %
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.61 %
+
+=================================================================
+========================== seq-cifar10 : 4 ==========================
+=================================================================
+
+Layer 1 - Parameter shape: torch.Size([20, 27])
+Layer 2 - Parameter shape: torch.Size([20, 180])
+Layer 3 - Parameter shape: torch.Size([20, 180])
+Layer 4 - Parameter shape: torch.Size([20, 180])
+Layer 5 - Parameter shape: torch.Size([20, 180])
+Layer 6 - Parameter shape: torch.Size([40, 180])
+Layer 7 - Parameter shape: torch.Size([40, 360])
+Layer 8 - Parameter shape: torch.Size([40, 20])
+Layer 9 - Parameter shape: torch.Size([40, 360])
+Layer 10 - Parameter shape: torch.Size([40, 360])
+Layer 11 - Parameter shape: torch.Size([80, 360])
+Layer 12 - Parameter shape: torch.Size([80, 720])
+Layer 13 - Parameter shape: torch.Size([80, 40])
+Layer 14 - Parameter shape: torch.Size([80, 720])
+Layer 15 - Parameter shape: torch.Size([80, 720])
+Layer 16 - Parameter shape: torch.Size([160, 720])
+Layer 17 - Parameter shape: torch.Size([160, 1440])
+Layer 18 - Parameter shape: torch.Size([160, 80])
+Layer 19 - Parameter shape: torch.Size([160, 1440])
+Layer 20 - Parameter shape: torch.Size([160, 1440])
+total size of resnet: 1090140
+Files already downloaded and verified
+Files already downloaded and verified
+classes [0, 1]
+epoch:0, loss:0.25714, loss_ce:0.25714, loss_mu:0.00000
+epoch:10, loss:0.01136, loss_ce:0.01136, loss_mu:0.00000
+epoch:20, loss:0.00623, loss_ce:0.00623, loss_mu:0.00000
+epoch:30, loss:0.12549, loss_ce:0.12549, loss_mu:0.00000
+epoch:40, loss:0.00021, loss_ce:0.00021, loss_mu:0.00000
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 4/20 torch.Size([20, 4])
+Layer 2 : 11/20 torch.Size([20, 11])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 12/20 torch.Size([20, 12])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 23/40 torch.Size([40, 23])
+Layer 7 : 28/40 torch.Size([40, 28])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 26/40 torch.Size([40, 26])
+Layer 10 : 24/40 torch.Size([40, 24])
+Layer 11 : 44/80 torch.Size([80, 44])
+Layer 12 : 53/80 torch.Size([80, 53])
+Layer 13 : 22/80 torch.Size([80, 22])
+Layer 14 : 50/80 torch.Size([80, 50])
+Layer 15 : 46/80 torch.Size([80, 46])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 101/160 torch.Size([160, 101])
+Layer 18 : 40/160 torch.Size([160, 40])
+Layer 19 : 89/160 torch.Size([160, 89])
+Layer 20 : 75/160 torch.Size([160, 75])
+total basis size: 85640
+----------------------------------------
+classes [0, 1]
+epoch:0, loss:0.07063, loss_ce:0.07063, loss_mu:0.00000
+epoch:10, loss:0.00150, loss_ce:0.00150, loss_mu:0.00000
+epoch:20, loss:0.00550, loss_ce:0.00550, loss_mu:0.00000
+epoch:30, loss:0.00032, loss_ce:0.00032, loss_mu:0.00000
+epoch:40, loss:0.06985, loss_ce:0.06985, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([4, 27])
+Layer 2 - Weight shape: torch.Size([11, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([12, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([23, 180])
+Layer 7 - Weight shape: torch.Size([28, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([26, 360])
+Layer 10 - Weight shape: torch.Size([24, 360])
+Layer 11 - Weight shape: torch.Size([44, 360])
+Layer 12 - Weight shape: torch.Size([53, 720])
+Layer 13 - Weight shape: torch.Size([22, 40])
+Layer 14 - Weight shape: torch.Size([50, 720])
+Layer 15 - Weight shape: torch.Size([46, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([101, 1440])
+Layer 18 - Weight shape: torch.Size([40, 80])
+Layer 19 - Weight shape: torch.Size([89, 1440])
+Layer 20 - Weight shape: torch.Size([75, 1440])
+total size of weight: 613368
+train_time: -329.1373293399811 decompose_time: -37.61092472076416 compose_time: -0.0006284713745117188 retrain_time: -349.509548664093
+task 0 accuracy 98.1
+[0.0, 98.1]
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.1 %
+train_time 716.572553396225 test_time 0.8421313762664795
+Files already downloaded and verified
+Files already downloaded and verified
+classes [2, 3]
+epoch:0, loss:35.24018, loss_ce:0.54172, loss_mu:3.46985
+epoch:10, loss:22.51475, loss_ce:0.29621, loss_mu:2.22185
+epoch:20, loss:21.11525, loss_ce:0.18706, loss_mu:2.09282
+epoch:30, loss:20.57138, loss_ce:0.22866, loss_mu:2.03427
+epoch:40, loss:20.57009, loss_ce:0.57817, loss_mu:1.99919
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 46/80 torch.Size([80, 46])
+Layer 12 : 54/80 torch.Size([80, 54])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 91/160 torch.Size([160, 91])
+Layer 20 : 77/160 torch.Size([160, 77])
+total basis size: 87720
+----------------------------------------
+classes [2, 3]
+epoch:0, loss:0.22770, loss_ce:0.22770, loss_mu:0.00000
+epoch:10, loss:0.23207, loss_ce:0.23207, loss_mu:0.00000
+epoch:20, loss:0.46748, loss_ce:0.46748, loss_mu:0.00000
+epoch:30, loss:0.25553, loss_ce:0.25553, loss_mu:0.00000
+epoch:40, loss:0.19132, loss_ce:0.19132, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([46, 360])
+Layer 12 - Weight shape: torch.Size([54, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([91, 1440])
+Layer 20 - Weight shape: torch.Size([77, 1440])
+total size of weight: 1240430
+train_time: -376.8788833618164 decompose_time: -73.89249849319458 compose_time: -0.0005116462707519531 retrain_time: -338.9436995983124
+task 0 accuracy 98.1
+task 1 accuracy 86.0
+[0.0, 98.1, 98.1]
+[0.0, 86.0]
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.05 %
+train_time 790.0349481105804 test_time 1.6568653583526611
+Files already downloaded and verified
+Files already downloaded and verified
+classes [4, 5]
+epoch:0, loss:111.94872, loss_ce:0.20582, loss_mu:11.17429
+epoch:10, loss:111.38142, loss_ce:0.12076, loss_mu:11.12607
+epoch:20, loss:111.47824, loss_ce:0.21836, loss_mu:11.12599
+epoch:30, loss:111.36753, loss_ce:0.10818, loss_mu:11.12594
+epoch:40, loss:112.13586, loss_ce:0.87563, loss_mu:11.12602
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 46/80 torch.Size([80, 46])
+Layer 12 : 54/80 torch.Size([80, 54])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 91/160 torch.Size([160, 91])
+Layer 20 : 77/160 torch.Size([160, 77])
+total basis size: 87720
+----------------------------------------
+classes [4, 5]
+epoch:0, loss:0.08658, loss_ce:0.08658, loss_mu:0.00000
+epoch:10, loss:0.13197, loss_ce:0.13197, loss_mu:0.00000
+epoch:20, loss:0.04329, loss_ce:0.04329, loss_mu:0.00000
+epoch:30, loss:0.14365, loss_ce:0.14365, loss_mu:0.00000
+epoch:40, loss:0.02182, loss_ce:0.02182, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([46, 360])
+Layer 12 - Weight shape: torch.Size([54, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([91, 1440])
+Layer 20 - Weight shape: torch.Size([77, 1440])
+total size of weight: 1867492
+train_time: -383.5482335090637 decompose_time: -76.56761384010315 compose_time: -0.0005421638488769531 retrain_time: -352.51847767829895
+task 0 accuracy 98.1
+task 1 accuracy 86.0
+task 2 accuracy 93.35
+[0.0, 98.1, 98.1, 98.1]
+[0.0, 86.0, 86.0]
+[0.0, 93.35]
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.48 %
+train_time 812.9502372741699 test_time 2.4985804557800293
+Files already downloaded and verified
+Files already downloaded and verified
+classes [6, 7]
+epoch:0, loss:111.44737, loss_ce:0.17776, loss_mu:11.12696
+epoch:10, loss:111.42808, loss_ce:0.17222, loss_mu:11.12559
+epoch:20, loss:111.27903, loss_ce:0.02362, loss_mu:11.12554
+epoch:30, loss:111.26598, loss_ce:0.01176, loss_mu:11.12542
+epoch:40, loss:111.25660, loss_ce:0.00247, loss_mu:11.12541
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 46/80 torch.Size([80, 46])
+Layer 12 : 54/80 torch.Size([80, 54])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 91/160 torch.Size([160, 91])
+Layer 20 : 77/160 torch.Size([160, 77])
+total basis size: 87720
+----------------------------------------
+classes [6, 7]
+epoch:0, loss:0.10964, loss_ce:0.10964, loss_mu:0.00000
+epoch:10, loss:0.03672, loss_ce:0.03672, loss_mu:0.00000
+epoch:20, loss:0.11074, loss_ce:0.11074, loss_mu:0.00000
+epoch:30, loss:0.00309, loss_ce:0.00309, loss_mu:0.00000
+epoch:40, loss:0.02302, loss_ce:0.02302, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([46, 360])
+Layer 12 - Weight shape: torch.Size([54, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([91, 1440])
+Layer 20 - Weight shape: torch.Size([77, 1440])
+total size of weight: 2494554
+train_time: -380.11678552627563 decompose_time: -75.05165910720825 compose_time: -0.0006101131439208984 retrain_time: -343.2149922847748
+task 0 accuracy 98.1
+task 1 accuracy 86.0
+task 2 accuracy 93.35
+task 3 accuracy 97.3
+[0.0, 98.1, 98.1, 98.1, 98.1]
+[0.0, 86.0, 86.0, 86.0]
+[0.0, 93.35, 93.35]
+[0.0, 97.3]
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.69 %
+train_time 798.6992225646973 test_time 3.3403427600860596
+Files already downloaded and verified
+Files already downloaded and verified
+classes [8, 9]
+epoch:0, loss:111.82250, loss_ce:0.55450, loss_mu:11.12680
+epoch:10, loss:111.36348, loss_ce:0.10756, loss_mu:11.12559
+epoch:20, loss:112.22128, loss_ce:0.96518, loss_mu:11.12561
+epoch:30, loss:111.32116, loss_ce:0.06573, loss_mu:11.12554
+epoch:40, loss:111.32974, loss_ce:0.07599, loss_mu:11.12537
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 13/20 torch.Size([20, 13])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 46/80 torch.Size([80, 46])
+Layer 12 : 54/80 torch.Size([80, 54])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 47/80 torch.Size([80, 47])
+Layer 16 : 90/160 torch.Size([160, 90])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 41/160 torch.Size([160, 41])
+Layer 19 : 91/160 torch.Size([160, 91])
+Layer 20 : 77/160 torch.Size([160, 77])
+total basis size: 87720
+----------------------------------------
+classes [8, 9]
+epoch:0, loss:0.00847, loss_ce:0.00847, loss_mu:0.00000
+epoch:10, loss:0.05865, loss_ce:0.05865, loss_mu:0.00000
+epoch:20, loss:0.01504, loss_ce:0.01504, loss_mu:0.00000
+epoch:30, loss:0.02322, loss_ce:0.02322, loss_mu:0.00000
+epoch:40, loss:0.03508, loss_ce:0.03508, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([13, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([46, 360])
+Layer 12 - Weight shape: torch.Size([54, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([47, 720])
+Layer 16 - Weight shape: torch.Size([90, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([41, 80])
+Layer 19 - Weight shape: torch.Size([91, 1440])
+Layer 20 - Weight shape: torch.Size([77, 1440])
+total size of weight: 3121616
+train_time: -373.32136249542236 decompose_time: -74.92250990867615 compose_time: -0.0005290508270263672 retrain_time: -332.86846709251404
+task 0 accuracy 98.1
+task 1 accuracy 86.0
+task 2 accuracy 93.35
+task 3 accuracy 97.3
+task 4 accuracy 96.05
+[0.0, 98.1, 98.1, 98.1, 98.1, 98.1]
+[0.0, 86.0, 86.0, 86.0, 86.0]
+[0.0, 93.35, 93.35, 93.35]
+[0.0, 97.3, 97.3]
+[0.0, 96.05]
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.16 %
+train_time 781.43115401268 test_time 4.164376735687256
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.1 %
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.05 %
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.48 %
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.69 %
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.16 %
+
+=================================================================
+========================== seq-cifar10 : 5 ==========================
+=================================================================
+
+Layer 1 - Parameter shape: torch.Size([20, 27])
+Layer 2 - Parameter shape: torch.Size([20, 180])
+Layer 3 - Parameter shape: torch.Size([20, 180])
+Layer 4 - Parameter shape: torch.Size([20, 180])
+Layer 5 - Parameter shape: torch.Size([20, 180])
+Layer 6 - Parameter shape: torch.Size([40, 180])
+Layer 7 - Parameter shape: torch.Size([40, 360])
+Layer 8 - Parameter shape: torch.Size([40, 20])
+Layer 9 - Parameter shape: torch.Size([40, 360])
+Layer 10 - Parameter shape: torch.Size([40, 360])
+Layer 11 - Parameter shape: torch.Size([80, 360])
+Layer 12 - Parameter shape: torch.Size([80, 720])
+Layer 13 - Parameter shape: torch.Size([80, 40])
+Layer 14 - Parameter shape: torch.Size([80, 720])
+Layer 15 - Parameter shape: torch.Size([80, 720])
+Layer 16 - Parameter shape: torch.Size([160, 720])
+Layer 17 - Parameter shape: torch.Size([160, 1440])
+Layer 18 - Parameter shape: torch.Size([160, 80])
+Layer 19 - Parameter shape: torch.Size([160, 1440])
+Layer 20 - Parameter shape: torch.Size([160, 1440])
+total size of resnet: 1090140
+Files already downloaded and verified
+Files already downloaded and verified
+classes [0, 1]
+epoch:0, loss:0.43391, loss_ce:0.43391, loss_mu:0.00000
+epoch:10, loss:0.03537, loss_ce:0.03537, loss_mu:0.00000
+epoch:20, loss:0.15465, loss_ce:0.15465, loss_mu:0.00000
+epoch:30, loss:0.28491, loss_ce:0.28491, loss_mu:0.00000
+epoch:40, loss:0.01585, loss_ce:0.01585, loss_mu:0.00000
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 4/20 torch.Size([20, 4])
+Layer 2 : 11/20 torch.Size([20, 11])
+Layer 3 : 13/20 torch.Size([20, 13])
+Layer 4 : 13/20 torch.Size([20, 13])
+Layer 5 : 11/20 torch.Size([20, 11])
+Layer 6 : 23/40 torch.Size([40, 23])
+Layer 7 : 28/40 torch.Size([40, 28])
+Layer 8 : 12/40 torch.Size([40, 12])
+Layer 9 : 26/40 torch.Size([40, 26])
+Layer 10 : 24/40 torch.Size([40, 24])
+Layer 11 : 43/80 torch.Size([80, 43])
+Layer 12 : 51/80 torch.Size([80, 51])
+Layer 13 : 22/80 torch.Size([80, 22])
+Layer 14 : 50/80 torch.Size([80, 50])
+Layer 15 : 49/80 torch.Size([80, 49])
+Layer 16 : 86/160 torch.Size([160, 86])
+Layer 17 : 100/160 torch.Size([160, 100])
+Layer 18 : 43/160 torch.Size([160, 43])
+Layer 19 : 88/160 torch.Size([160, 88])
+Layer 20 : 77/160 torch.Size([160, 77])
+total basis size: 85800
+----------------------------------------
+classes [0, 1]
+epoch:0, loss:0.10394, loss_ce:0.10394, loss_mu:0.00000
+epoch:10, loss:0.10458, loss_ce:0.10458, loss_mu:0.00000
+epoch:20, loss:0.00609, loss_ce:0.00609, loss_mu:0.00000
+epoch:30, loss:0.00002, loss_ce:0.00002, loss_mu:0.00000
+epoch:40, loss:0.00813, loss_ce:0.00813, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([4, 27])
+Layer 2 - Weight shape: torch.Size([11, 180])
+Layer 3 - Weight shape: torch.Size([13, 180])
+Layer 4 - Weight shape: torch.Size([13, 180])
+Layer 5 - Weight shape: torch.Size([11, 180])
+Layer 6 - Weight shape: torch.Size([23, 180])
+Layer 7 - Weight shape: torch.Size([28, 360])
+Layer 8 - Weight shape: torch.Size([12, 20])
+Layer 9 - Weight shape: torch.Size([26, 360])
+Layer 10 - Weight shape: torch.Size([24, 360])
+Layer 11 - Weight shape: torch.Size([43, 360])
+Layer 12 - Weight shape: torch.Size([51, 720])
+Layer 13 - Weight shape: torch.Size([22, 40])
+Layer 14 - Weight shape: torch.Size([50, 720])
+Layer 15 - Weight shape: torch.Size([49, 720])
+Layer 16 - Weight shape: torch.Size([86, 720])
+Layer 17 - Weight shape: torch.Size([100, 1440])
+Layer 18 - Weight shape: torch.Size([43, 80])
+Layer 19 - Weight shape: torch.Size([88, 1440])
+Layer 20 - Weight shape: torch.Size([77, 1440])
+total size of weight: 612528
+train_time: -333.6792302131653 decompose_time: -38.056666135787964 compose_time: -0.0006380081176757812 retrain_time: -342.02671003341675
+task 0 accuracy 98.3
+[0.0, 98.3]
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.3 %
+train_time 714.0948185920715 test_time 0.839282751083374
+Files already downloaded and verified
+Files already downloaded and verified
+classes [2, 3]
+epoch:0, loss:31.89400, loss_ce:0.66802, loss_mu:3.12260
+epoch:10, loss:20.17141, loss_ce:0.48108, loss_mu:1.96903
+epoch:20, loss:18.57783, loss_ce:0.08418, loss_mu:1.84936
+epoch:30, loss:18.09233, loss_ce:0.14141, loss_mu:1.79509
+epoch:40, loss:17.78400, loss_ce:0.15894, loss_mu:1.76251
+updating_basis
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 50/80 torch.Size([80, 50])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 90/160 torch.Size([160, 90])
+Layer 20 : 81/160 torch.Size([160, 81])
+total basis size: 88360
+----------------------------------------
+classes [2, 3]
+epoch:0, loss:0.30031, loss_ce:0.30031, loss_mu:0.00000
+epoch:10, loss:0.40491, loss_ce:0.40491, loss_mu:0.00000
+epoch:20, loss:0.21428, loss_ce:0.21428, loss_mu:0.00000
+epoch:30, loss:0.26351, loss_ce:0.26351, loss_mu:0.00000
+epoch:40, loss:0.07391, loss_ce:0.07391, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([50, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([90, 1440])
+Layer 20 - Weight shape: torch.Size([81, 1440])
+total size of weight: 1243070
+train_time: -376.5452401638031 decompose_time: -77.26278162002563 compose_time: -0.0005130767822265625 retrain_time: -338.97060561180115
+task 0 accuracy 98.3
+task 1 accuracy 87.15
+[0.0, 98.3, 98.3]
+[0.0, 87.15]
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.72 %
+train_time 793.097912311554 test_time 1.6579358577728271
+Files already downloaded and verified
+Files already downloaded and verified
+classes [4, 5]
+epoch:0, loss:112.31223, loss_ce:0.32817, loss_mu:11.19841
+epoch:10, loss:112.18923, loss_ce:0.67663, loss_mu:11.15126
+epoch:20, loss:111.75374, loss_ce:0.24056, loss_mu:11.15132
+epoch:30, loss:111.56184, loss_ce:0.05033, loss_mu:11.15115
+epoch:40, loss:111.66084, loss_ce:0.14944, loss_mu:11.15114
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 50/80 torch.Size([80, 50])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 90/160 torch.Size([160, 90])
+Layer 20 : 81/160 torch.Size([160, 81])
+total basis size: 88360
+----------------------------------------
+classes [4, 5]
+epoch:0, loss:0.02500, loss_ce:0.02500, loss_mu:0.00000
+epoch:10, loss:0.14264, loss_ce:0.14264, loss_mu:0.00000
+epoch:20, loss:0.03412, loss_ce:0.03412, loss_mu:0.00000
+epoch:30, loss:0.15874, loss_ce:0.15874, loss_mu:0.00000
+epoch:40, loss:0.24182, loss_ce:0.24182, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([50, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([90, 1440])
+Layer 20 - Weight shape: torch.Size([81, 1440])
+total size of weight: 1873612
+train_time: -372.76032543182373 decompose_time: -74.68255805969238 compose_time: -0.0005183219909667969 retrain_time: -340.78354477882385
+task 0 accuracy 98.3
+task 1 accuracy 87.15
+task 2 accuracy 94.05
+[0.0, 98.3, 98.3, 98.3]
+[0.0, 87.15, 87.15]
+[0.0, 94.05]
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.17 %
+train_time 788.5409736633301 test_time 2.4812171459198
+Files already downloaded and verified
+Files already downloaded and verified
+classes [6, 7]
+epoch:0, loss:111.62737, loss_ce:0.10558, loss_mu:11.15218
+epoch:10, loss:111.56217, loss_ce:0.05345, loss_mu:11.15087
+epoch:20, loss:111.53115, loss_ce:0.02263, loss_mu:11.15085
+epoch:30, loss:111.69505, loss_ce:0.18658, loss_mu:11.15085
+epoch:40, loss:111.52354, loss_ce:0.01625, loss_mu:11.15073
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 50/80 torch.Size([80, 50])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 90/160 torch.Size([160, 90])
+Layer 20 : 81/160 torch.Size([160, 81])
+total basis size: 88360
+----------------------------------------
+classes [6, 7]
+epoch:0, loss:0.00639, loss_ce:0.00639, loss_mu:0.00000
+epoch:10, loss:0.40563, loss_ce:0.40563, loss_mu:0.00000
+epoch:20, loss:0.09481, loss_ce:0.09481, loss_mu:0.00000
+epoch:30, loss:0.01519, loss_ce:0.01519, loss_mu:0.00000
+epoch:40, loss:0.00319, loss_ce:0.00319, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([50, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([90, 1440])
+Layer 20 - Weight shape: torch.Size([81, 1440])
+total size of weight: 2504154
+train_time: -371.7805359363556 decompose_time: -72.53926849365234 compose_time: -0.0005280971527099609 retrain_time: -341.580384016037
+task 0 accuracy 98.3
+task 1 accuracy 87.15
+task 2 accuracy 94.05
+task 3 accuracy 97.2
+[0.0, 98.3, 98.3, 98.3, 98.3]
+[0.0, 87.15, 87.15, 87.15]
+[0.0, 94.05, 94.05]
+[0.0, 97.2]
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.18 %
+train_time 786.2174816131592 test_time 3.3212287425994873
+Files already downloaded and verified
+Files already downloaded and verified
+classes [8, 9]
+epoch:0, loss:111.88242, loss_ce:0.36119, loss_mu:11.15212
+epoch:10, loss:111.73872, loss_ce:0.22920, loss_mu:11.15095
+epoch:20, loss:111.54082, loss_ce:0.03335, loss_mu:11.15075
+epoch:30, loss:111.52237, loss_ce:0.01488, loss_mu:11.15075
+epoch:40, loss:111.52483, loss_ce:0.01741, loss_mu:11.15074
+updating_basis
+Skip Updating Basis for layer: 1
+Skip Updating Basis for layer: 2
+Skip Updating Basis for layer: 3
+Skip Updating Basis for layer: 4
+Skip Updating Basis for layer: 5
+Skip Updating Basis for layer: 6
+Skip Updating Basis for layer: 7
+Skip Updating Basis for layer: 8
+Skip Updating Basis for layer: 9
+Skip Updating Basis for layer: 10
+Skip Updating Basis for layer: 11
+Skip Updating Basis for layer: 12
+Skip Updating Basis for layer: 13
+Skip Updating Basis for layer: 14
+Skip Updating Basis for layer: 15
+Skip Updating Basis for layer: 16
+Skip Updating Basis for layer: 17
+Skip Updating Basis for layer: 18
+Skip Updating Basis for layer: 19
+Skip Updating Basis for layer: 20
+----------------------------------------
+Basis size Summary
+----------------------------------------
+Layer 1 : 6/20 torch.Size([20, 6])
+Layer 2 : 12/20 torch.Size([20, 12])
+Layer 3 : 14/20 torch.Size([20, 14])
+Layer 4 : 14/20 torch.Size([20, 14])
+Layer 5 : 12/20 torch.Size([20, 12])
+Layer 6 : 24/40 torch.Size([40, 24])
+Layer 7 : 29/40 torch.Size([40, 29])
+Layer 8 : 13/40 torch.Size([40, 13])
+Layer 9 : 27/40 torch.Size([40, 27])
+Layer 10 : 25/40 torch.Size([40, 25])
+Layer 11 : 45/80 torch.Size([80, 45])
+Layer 12 : 52/80 torch.Size([80, 52])
+Layer 13 : 23/80 torch.Size([80, 23])
+Layer 14 : 51/80 torch.Size([80, 51])
+Layer 15 : 50/80 torch.Size([80, 50])
+Layer 16 : 88/160 torch.Size([160, 88])
+Layer 17 : 102/160 torch.Size([160, 102])
+Layer 18 : 44/160 torch.Size([160, 44])
+Layer 19 : 90/160 torch.Size([160, 90])
+Layer 20 : 81/160 torch.Size([160, 81])
+total basis size: 88360
+----------------------------------------
+classes [8, 9]
+epoch:0, loss:0.02708, loss_ce:0.02708, loss_mu:0.00000
+epoch:10, loss:0.03969, loss_ce:0.03969, loss_mu:0.00000
+epoch:20, loss:0.08295, loss_ce:0.08295, loss_mu:0.00000
+epoch:30, loss:0.03104, loss_ce:0.03104, loss_mu:0.00000
+epoch:40, loss:0.03273, loss_ce:0.03273, loss_mu:0.00000
+Layer 1 - Weight shape: torch.Size([6, 27])
+Layer 2 - Weight shape: torch.Size([12, 180])
+Layer 3 - Weight shape: torch.Size([14, 180])
+Layer 4 - Weight shape: torch.Size([14, 180])
+Layer 5 - Weight shape: torch.Size([12, 180])
+Layer 6 - Weight shape: torch.Size([24, 180])
+Layer 7 - Weight shape: torch.Size([29, 360])
+Layer 8 - Weight shape: torch.Size([13, 20])
+Layer 9 - Weight shape: torch.Size([27, 360])
+Layer 10 - Weight shape: torch.Size([25, 360])
+Layer 11 - Weight shape: torch.Size([45, 360])
+Layer 12 - Weight shape: torch.Size([52, 720])
+Layer 13 - Weight shape: torch.Size([23, 40])
+Layer 14 - Weight shape: torch.Size([51, 720])
+Layer 15 - Weight shape: torch.Size([50, 720])
+Layer 16 - Weight shape: torch.Size([88, 720])
+Layer 17 - Weight shape: torch.Size([102, 1440])
+Layer 18 - Weight shape: torch.Size([44, 80])
+Layer 19 - Weight shape: torch.Size([90, 1440])
+Layer 20 - Weight shape: torch.Size([81, 1440])
+total size of weight: 3134696
+train_time: -375.17565155029297 decompose_time: -73.66310262680054 compose_time: -0.0005350112915039062 retrain_time: -341.2488715648651
+task 0 accuracy 98.3
+task 1 accuracy 87.15
+task 2 accuracy 94.05
+task 3 accuracy 97.2
+task 4 accuracy 96.15
+[0.0, 98.3, 98.3, 98.3, 98.3, 98.3]
+[0.0, 87.15, 87.15, 87.15, 87.15]
+[0.0, 94.05, 94.05, 94.05]
+[0.0, 97.2, 97.2]
+[0.0, 96.15]
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.57 %
+train_time 790.4053087234497 test_time 4.14167332649231
+Accuracy for 1 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 98.3 %
+Accuracy for 2 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 92.72 %
+Accuracy for 3 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 93.17 %
+Accuracy for 4 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.18 %
+Accuracy for 5 task(s): 	 [Class-IL]: 0.0 % 	 [Task-IL]: 94.57 %
